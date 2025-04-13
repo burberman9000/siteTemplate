@@ -51,7 +51,7 @@ header {
 }
 
 .brief__image {
-    background-image: url(/images/2\ 2.png);
+    background-image: url('./images/2\ 2.png');
     background-size: contain;
     width: 763px;
     height: 1009px;
@@ -517,6 +517,9 @@ label {
 }
 
 @media (max-width: 768px) {
+    .mainMid__logo {
+        height: 60px;
+    }
     .frameHolder {
         width: 100%;
     }
@@ -616,6 +619,21 @@ label {
         width: 500px;
     }
 
+    footer {
+        width: 768px;
+    }
+    .footer__holder {
+        width: 768px;
+    }
+    .footer__bottom__right {
+        margin-left: 0;
+    }
+    .socialNetworks {
+        margin-left: 0;
+    }
+    .privacy {
+        margin-left: 0;
+    }
     @media (max-width: 320px) {
         .frameHolder {
             width: 100%;
