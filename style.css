@@ -91,7 +91,7 @@ header {
 }
 
 .price__arrow {
-    background-image: url(/images/svg/done.svg);
+    background-image: url('./images/svg/done.svg');
     width: 39px;
     height: 37px;
 }
@@ -158,14 +158,14 @@ header {
 .mainRight {
     height: 724px;
     width: 622px;
-    background-image: url(/images/3\ 1.png);
+    background-image: url('./images/3\ 1.png');
     background-size: cover;
 }
 
 .mainRight {
     height: 724px;
     width: 576px;
-    background-image: url(/images/1\ 9.png);
+    background-image: url('./images/1\ 9.png');
 }
 
 .mainMid__item {
@@ -184,7 +184,7 @@ header {
 }
 
 .mainMid__logo {
-    background-image: url(/images/svg/logo.svg);
+    background-image: url('./images/svg/logo.svg');
     width: 80px;
     height: 47px;
     background-size: cover;
@@ -266,7 +266,7 @@ header {
     border-radius: 30px;
     display: flex;
     justify-content: space-between;
-    background-image: url(/images/8-8\ 3.png);
+    background-image: url('./images/8-8\ 3.png');
     background-position: 456px;
     background-repeat: no-repeat;
 }
@@ -320,7 +320,7 @@ input::placeholder {
     /* margin-right: 110px; */
     /* margin-top: -140px; */
     display: block;
-    background-image: url(/images/photo_2023-11-03\ 15.50\ 1.png);
+    background-image: url('./images/photo_2023-11-03\ 15.50\ 1.png');
     width: 608px;
     height: 758px;
     background-size: cover;
@@ -460,36 +460,36 @@ label {
 .inst {
     width: 32px;
     height: 32px;
-    background-image: url('/images/svg/insta.svg');
+    background-image: url('./images/svg/insta.svg');
 }
 
 .tiktok {
     width: 32px;
     height: 32px;
-    background-image: url('/images/svg/tiktok.svg');
+    background-image: url('./images/svg/tiktok.svg');
 }
 
 .lkd {
     width: 32px;
     height: 32px;
-    background-image: url('/images/svg/lkd.svg');
+    background-image: url('./images/svg/lkd.svg');
 }
 .facebook {
     width: 32px;
     height: 32px;
-    background-image: url('/images/svg/facebook.svg');
+    background-image: url('./images/svg/facebook.svg');
 }
 
 .tg {
     width: 32px;
     height: 32px;
-    background-image: url('/images/svg/tg.svg');
+    background-image: url('./images/svg/tg.svg');
 }
 
 .youtube {
     width: 32px;
     height: 32px;
-    background-image: url('/images/svg/yuotube.svg');
+    background-image: url('./images/svg/yuotube.svg');
 }
 
 .footer__bottom__right {
