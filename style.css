@@ -550,37 +550,72 @@ label {
     .frame__itemsHolder {
         font-size: 12px;
     }
-}
-
-@media (max-width: 320px) {
-    .frameHolder {
-        width: 100%;
-    }
-    header {
-        display: flex;
-        flex-direction: column;
-    }
-    .header__left {
-        width: 100%;
-        min-width: 320px; /* Это ограничение лучше убрать для этого медиазапроса */
-    }
-    .header__right {
-        margin-left: 0px;
-        width: 100%;
-        min-width: 320px; /* Это ограничение лучше убрать для этого медиазапроса */
-    }
-    .frame__nav {
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-    .briefHolder {
+    .mainRight {
         display: none;
+    }
+    .main__top {
         margin-left: auto;
         margin-right: auto;
+    }
+    .mainMid__item {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mainLeft {
+        display: none;
+    }
+    .mainHolder {
+        margin-top: 300px;
+    }
+    .main__top {
+        width: 768px;
+    }
+    .mainMid {
+        max-width: 768px;
+        width: 100%;
+        height: 667px;
+    }
+    .mainMid__order {
         width: 100%;
     }
-    .brief__subTitle {
-        margin-top: 350px;
+    .frameHolder {
+        margin-left: 0;
+    }
+
+    @media (max-width: 320px) {
+        .frameHolder {
+            width: 100%;
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+        }
+        .header__left {
+            width: 100%;
+            min-width: 320px; /* Это ограничение лучше убрать для этого медиазапроса */
+        }
+        .header__right {
+            margin-left: 0px;
+            width: 100%;
+            min-width: 320px; /* Это ограничение лучше убрать для этого медиазапроса */
+        }
+        .frame__nav {
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+        .briefHolder {
+            display: none;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+        .brief__subTitle {
+            margin-top: 350px;
+        }
+        .main__top {
+            width: fit-content;
+        }
     }
 }
