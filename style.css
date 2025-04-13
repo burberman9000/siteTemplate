@@ -46,6 +46,12 @@ main {
     margin-top: 14px;
     justify-content: space-between;
     letter-spacing: 1px;
+    transition: 0.2 linear;
+}
+
+.nav__item:hover {
+    color: rgb(163, 163, 163);
+    cursor: pointer;
 }
 
 .frame__itemsHolder {
@@ -151,6 +157,7 @@ main {
     margin-top: 22px;
     cursor: pointer;
     transition: linear 0.2s;
+    user-select: none;
 }
 .orderButton:hover {
     color: #32323f;
@@ -220,6 +227,7 @@ main {
     line-height: 150%;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
 }
 
 .mainMid__item {
@@ -287,6 +295,7 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 8px;
     margin-top: -28px;
+    cursor: pointer;
 }
 
 .mainBottom__text {
@@ -375,6 +384,7 @@ label {
     color: #ffffff;
     font-style: italic;
     margin-left: 4px;
+    user-select: none;
 }
 
 .footer__bottom {
@@ -404,6 +414,7 @@ label {
     line-height: 150%;
     margin-top: 39px;
     position: absolute;
+    user-select: none;
 }
 
 .footer__bottom__left {
@@ -429,6 +440,17 @@ label {
 }
 
 .socialNetworks > div {
+    user-select: none;
+    transition: 0.2s linear;
+}
+
+.socialNetworks > div:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.logoText {
+    user-select: none;
 }
 
 .privacy {
@@ -440,6 +462,7 @@ label {
     line-height: 150%;
     margin-top: 54px;
     margin-left: 257px;
+    user-select: none;
 }
 
 .footerOrder {
@@ -455,6 +478,8 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 .footerTerms {
@@ -463,6 +488,7 @@ label {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     margin-top: 30px;
+    user-select: none;
 }
 .inst {
     width: 32px;
@@ -679,4 +705,21 @@ label {
             width: fit-content;
         }
     }
+}
+.headerHolder {
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.header.hidden {
+    background-color: transparent;
 }
