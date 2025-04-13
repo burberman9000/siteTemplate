@@ -12,6 +12,11 @@ body {
 header {
     display: flex;
     height: 1008px;
+    user-select: none;
+}
+
+main {
+    user-select: none;
 }
 
 .frameHolder {
@@ -144,7 +149,13 @@ header {
     font-weight: bold;
     letter-spacing: 1.04px;
     margin-top: 22px;
+    cursor: pointer;
+    transition: linear 0.2s;
 }
+.orderButton:hover {
+    color: #32323f;
+}
+
 .main__top {
     display: flex;
     height: 823px;
@@ -189,10 +200,6 @@ header {
     height: 47px;
     background-size: cover;
     margin-top: -10px;
-}
-
-.mainMid__logo.custom {
-    margin-top: -77px;
 }
 
 .mainMid__text {
@@ -630,6 +637,9 @@ label {
     }
     .socialNetworks {
         margin-left: 0;
+    }
+    .socialNetworks > div {
+        user-select: none;
     }
     .privacy {
         margin-left: 0;
